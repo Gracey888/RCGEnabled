@@ -1,0 +1,6 @@
+Report Summary QA ---
+Total Test Cases Executed: 1.0
+Total Passed: 0
+Total Failed: 1
+Passed Percentage: 0.0%
+Failed Percentage: 100.0%

@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building cucumber-jvm-parallel 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact junit:junit-dep:jar:4.11 has been relocated to junit:junit:jar:4.11
+[WARNING] The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ cucumber-jvm-parallel ---
+[INFO] Deleting C:\ADS\workspace\cucumber-jvm-parallel_ads\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cucumber-jvm-parallel ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\ADS\workspace\cucumber-jvm-parallel_ads\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ cucumber-jvm-parallel ---
+[INFO] Compiling 1 source file to C:\ADS\workspace\cucumber-jvm-parallel_ads\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cucumber-jvm-parallel ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 54 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ cucumber-jvm-parallel ---
+[INFO] Compiling 123 source files to C:\ADS\workspace\cucumber-jvm-parallel_ads\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14:test (default-test) @ cucumber-jvm-parallel ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ cucumber-jvm-parallel ---
+[INFO] Building jar: C:\ADS\workspace\cucumber-jvm-parallel_ads\target\cucumber-jvm-parallel-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14:test (acceptance-test) @ cucumber-jvm-parallel ---
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) > validate @ cucumber-jvm-parallel >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) < validate @ cucumber-jvm-parallel <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ cucumber-jvm-parallel ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ cucumber-jvm-parallel ---
+[INFO] Installing C:\ADS\workspace\cucumber-jvm-parallel_ads\target\cucumber-jvm-parallel-1.0-SNAPSHOT.jar to C:\Users\GGSolita\.m2\repository\com\opencredo\cucumber-jvm-parallel\1.0-SNAPSHOT\cucumber-jvm-parallel-1.0-SNAPSHOT.jar
+[INFO] Installing C:\ADS\workspace\cucumber-jvm-parallel_ads\pom.xml to C:\Users\GGSolita\.m2\repository\com\opencredo\cucumber-jvm-parallel\1.0-SNAPSHOT\cucumber-jvm-parallel-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.143 s
+[INFO] Finished at: 2017-05-26T04:44:45+08:00
+[INFO] Final Memory: 16M/51M
+[INFO] ------------------------------------------------------------------------
